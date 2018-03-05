@@ -1,0 +1,49 @@
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Especifica que sucede si el contenido del
+                    cuadrado de un elemento se desbora */
+background-color: #333;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;  /* Mostrarlo como linea en bloque */
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #f1d517;
+  color: #333;
+}
+
+li a:active{
+  /* Que en lugar de acerca de, aparezca nuestra foto */
+  /* Que el about se quede junto a contactos en el lado izquierdo  */
+  /* Tarea ademas de cambiar el color, que se cambie a italica la fuente */
+  background-color: #609acf;
+  font-size: 120%;
+  font-style: italic;
+}
+
+li:last-child{
+  float: right;
+  background-color: rgba(106, 116, 116, 0.70);
+  color: white;
+}
+
+#pp{
+  width: 5%;
+  float: right;
+}
+
+#pp:active{
+  width: 3%;
+}

@@ -1,0 +1,102 @@
+article{
+  margin-left: 170px;
+  border-left: 1px solid gray;
+  padding: 1em;
+  overflow: hidden;
+  background-color: rgba(31, 11, 11, 0.18);
+  background-repeat: repeat-y;
+}
+
+p{
+  text-align: justify;
+  margin-left: 300px;
+}
+
+div.contenedor{
+  width: 100%;
+  border: 1px solid gray;
+}
+
+header, footer{
+  padding: 1em;
+  color: white;
+  background-color: black;
+  clear: left;
+  text-align: center;
+}
+
+nav{
+  float: left;
+  max-width: 160px;
+  margin: 0;
+  padding: 1em;
+e}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul a{
+  text-decoration: none;
+}
+
+article{
+  margin-left: 170px;
+  border-left: 1px solid gray;
+  padding: 1em;
+  overflow: hidden;
+}
+
+h1.mx{
+  margin-left: 500px;
+  font-size: 200%;
+  color: green;
+}
+
+h1.pa{
+  margin-left: 500px;
+  font-size: 200%;
+  color: blue;
+}
+
+h1.tk{
+  margin-left: 500px;
+  font-size: 200%;
+  color: rgb(255, 0, 0);
+}
+
+h1.lo{
+  margin-left: 500px;
+  font-size: 200%;
+  color: rgb(153, 10, 10);
+}
+
+.banderamx{
+  background-image: url("../img/mexico.png");
+  background-size: 300px 200px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.banderapa{
+  background-image: url("../img/paris.png");
+  background-size: 300px 200px;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.banderato{
+  background-image: url("../img/tokyo.png");
+  background-size: 300px 200px;
+  background-position: left;
+  background-repeat: no-repeat;
+
+}
+
+.banderalo{
+  background-image: url("../img/london.png");
+  background-size: 300px 200px;
+  background-position: left;
+  background-repeat: no-repeat;
+}
