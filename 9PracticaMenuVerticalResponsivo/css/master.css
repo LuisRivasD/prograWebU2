@@ -1,0 +1,52 @@
+body{
+  margin:0;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto; /* Especifica que sucede si el contenido del
+                    cuadrado de un elemento se desbora */
+  /* background-color: #333; */
+}
+
+/* li{
+  float: center;
+} */
+
+li a{
+  display: block;  /* Mostrarlo como linea en bloque */
+  color: #000;
+  padding: 8px 20px;
+  text-decoration: none;
+  /* text-align: center; */
+}
+
+/* Aquí podemos cambiarlo a ":" para crear pseudoclase */
+li a.active{
+  background-color: #4CAF50;
+  color: white;
+  /* font-style: italic;
+  transform: scalex(1.2); */
+}
+
+li a:hover:not(.active){
+  background-color: #555;
+  color: white;
+  /* transform: scalex(1.2);
+  font-style: italic; */
+}
+a:hover{
+  transform: scaleY(1.2);
+  font-style: italic;
+}
+/* li:last-child{
+  float: right;
+  background-color: rgba(106, 116, 116, 0.70);
+  color: white;
+} */

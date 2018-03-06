@@ -21,15 +21,14 @@ li a{
 
 li a:hover{
   background-color: #f1d517;
+  transform: scalex(1.2);
+  font-style: italic;
   color: #333;
 }
 
 li a:active{
-  /* Que en lugar de acerca de, aparezca nuestra foto */
-  /* Que el about se quede junto a contactos en el lado izquierdo  */
-  /* Tarea ademas de cambiar el color, que se cambie a italica la fuente */
   background-color: #609acf;
-  font-size: 120%;
+  transform: scalex(1.2);
   font-style: italic;
 }
 
@@ -40,10 +39,10 @@ li:last-child{
 }
 
 #pp{
-  width: 5%;
+  width: 3%;
   float: right;
 }
 
 #pp:active{
-  width: 3%;
+  width: 1%;
 }
