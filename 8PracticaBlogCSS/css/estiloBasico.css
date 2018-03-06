@@ -142,6 +142,11 @@ li:last-child{
   background-repeat: no-repeat;
 }
 
+#pp:hover{
+  background-color: #f1d517;
+  color: #333;
+}
+
 #pp{
   width: 40px;
 }
