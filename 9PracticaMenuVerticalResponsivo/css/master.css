@@ -2,6 +2,10 @@ body{
 	margin: 0;
 }
 
+.imgme2{
+	display: none;
+}
+
 ul.topnav{
 	list-style-type: none;
 	margin: 0;
@@ -53,13 +57,18 @@ ul.topnav img{
 
 @media screen and (max-width: 600px) {
 	ul.topnav li.right,	ul.topnav li{float: none;}
+
 	.imgme{
+		display: none;
+	}
+	.imgme2{
+	display: block;
 	max-width: 65px;
   position: absolute;
 	left: 0;
 	right: 0;
 	margin: auto;}
-	.backimg{
+	.backimg2{
 		padding-bottom: 65px;
 		background-color: #333;
 	}
